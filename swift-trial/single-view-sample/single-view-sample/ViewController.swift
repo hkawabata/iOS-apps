@@ -33,8 +33,7 @@ class ViewController: UIViewController {
     @IBAction func soundButton(_ sender: UIButton) {
         test.text = "hoge"
 
-        AudioServicesPlaySystemSoundWithCompletion(1000){
-        }
+        AudioServicesPlaySystemSoundWithCompletion(1000){}
     }
     
     @IBAction func customSoundButton(_ sender: Any) {
@@ -44,6 +43,9 @@ class ViewController: UIViewController {
         AudioServicesPlaySystemSoundWithCompletion(soundId){}
     }
     
+    @IBAction func vibrationButton(_ sender: Any) {
+        AudioServicesPlaySystemSoundWithCompletion(kSystemSoundID_Vibrate){}
+    }
     
 }
 
