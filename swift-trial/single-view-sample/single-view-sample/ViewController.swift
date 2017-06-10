@@ -29,26 +29,25 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var test: UILabel!
-
+    
     @IBAction func soundButton(_ sender: UIButton) {
         test.text = "hoge"
         AudioServicesPlaySystemSoundWithCompletion(1000){}
     }
     
     @IBAction func customSoundButton(_ sender: Any) {
-        /*
-        let soundUrl = Bundle.main.url(forResource: "swords01", withExtension: "mp3")
-        var soundId: SystemSoundID = 0
-        AudioServicesCreateSystemSoundID(soundUrl as! CFURL, &soundId)
-        AudioServicesPlaySystemSoundWithCompletion(soundId){}
-         */
         SoundUtil.playSwordConflictSound()
     }
     
+    @IBAction func customSoundButton2(_ sender: Any) {
+        SoundUtil.playSwordGuardSound()
+    }
+
+    @IBAction func customSoundButton3(_ sender: Any) {
+        SoundUtil.playSwordSwingSound()
+    }
+    
     @IBAction func vibrationButton(_ sender: Any) {
-        /*
-        AudioServicesPlaySystemSoundWithCompletion(kSystemSoundID_Vibrate){}
-         */
         SoundUtil.vibrate()
     }
     

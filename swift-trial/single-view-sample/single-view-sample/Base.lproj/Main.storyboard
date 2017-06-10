@@ -41,15 +41,31 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sc6-w8-c71">
-                                <rect key="frame" x="113" y="427" width="149" height="30"/>
+                                <rect key="frame" x="85" y="416" width="206" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="CustomSound(sword)"/>
+                                <state key="normal" title="CustomSound(sword_conflict)"/>
                                 <connections>
                                     <action selector="customSoundButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nie-Qx-R54"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaP-h1-Csr">
+                                <rect key="frame" x="87" y="454" width="195" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="CustomSound(sword_guard)"/>
+                                <connections>
+                                    <action selector="customSoundButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcB-Ja-W1M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJa-oe-aWZ">
+                                <rect key="frame" x="90" y="497" width="195" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="CustomSound(sward_swing)"/>
+                                <connections>
+                                    <action selector="customSoundButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OmZ-j2-QDb"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUG-h3-0ZQ">
-                                <rect key="frame" x="156" y="481" width="62" height="30"/>
+                                <rect key="frame" x="152" y="535" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Vibration"/>
                                 <connections>
