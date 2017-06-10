@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AudioToolbox
 
 class ViewController: UIViewController {
 
@@ -26,7 +27,23 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBOutlet weak var test: UILabel!
 
+    @IBAction func soundButton(_ sender: UIButton) {
+        test.text = "hoge"
 
+        AudioServicesPlaySystemSoundWithCompletion(1000){
+        }
+    }
+    
+    @IBAction func customSoundButton(_ sender: Any) {
+        let soundUrl = Bundle.main.url(forResource: "swords01", withExtension: "mp3")
+        var soundId: SystemSoundID = 0
+        AudioServicesCreateSystemSoundID(soundUrl as! CFURL, &soundId)
+        AudioServicesPlaySystemSoundWithCompletion(soundId){}
+    }
+    
+    
 }
 

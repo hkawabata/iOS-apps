@@ -15,6 +15,8 @@
 		D790B0EE1EE98AC20085DEA8 /* single_view_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790B0ED1EE98AC20085DEA8 /* single_view_sampleTests.swift */; };
 		D790B0F91EE98AC20085DEA8 /* single_view_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790B0F81EE98AC20085DEA8 /* single_view_sampleUITests.swift */; };
 		D790B1071EE9908F0085DEA8 /* swift_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D790B1061EE9908F0085DEA8 /* swift_logo.png */; };
+		EE54681E1EEBCA9E00F84E2C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE54681D1EEBCA9E00F84E2C /* AudioToolbox.framework */; };
+		EE5468201EEBD1D000F84E2C /* swords01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE54681F1EEBD1D000F84E2C /* swords01.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D790B0F81EE98AC20085DEA8 /* single_view_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = single_view_sampleUITests.swift; sourceTree = "<group>"; };
 		D790B0FA1EE98AC20085DEA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D790B1061EE9908F0085DEA8 /* swift_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swift_logo.png; sourceTree = "<group>"; };
+		EE54681D1EEBCA9E00F84E2C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EE54681F1EEBD1D000F84E2C /* swords01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swords01.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE54681E1EEBCA9E00F84E2C /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				D790B0EC1EE98AC20085DEA8 /* single-view-sampleTests */,
 				D790B0F71EE98AC20085DEA8 /* single-view-sampleUITests */,
 				D790B0D61EE98AC20085DEA8 /* Products */,
+				EE54681C1EEBCA9E00F84E2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +108,7 @@
 				D790B0D81EE98AC20085DEA8 /* AppDelegate.swift */,
 				D790B0DA1EE98AC20085DEA8 /* ViewController.swift */,
 				D790B0DC1EE98AC20085DEA8 /* Main.storyboard */,
+				EE54681F1EEBD1D000F84E2C /* swords01.mp3 */,
 				D790B1061EE9908F0085DEA8 /* swift_logo.png */,
 				D790B0DF1EE98AC20085DEA8 /* Assets.xcassets */,
 				D790B0E11EE98AC20085DEA8 /* LaunchScreen.storyboard */,
@@ -126,6 +133,14 @@
 				D790B0FA1EE98AC20085DEA8 /* Info.plist */,
 			);
 			path = "single-view-sampleUITests";
+			sourceTree = "<group>";
+		};
+		EE54681C1EEBCA9E00F84E2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE54681D1EEBCA9E00F84E2C /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5468201EEBD1D000F84E2C /* swords01.mp3 in Resources */,
 				D790B0E31EE98AC20085DEA8 /* LaunchScreen.storyboard in Resources */,
 				D790B1071EE9908F0085DEA8 /* swift_logo.png in Resources */,
 				D790B0E01EE98AC20085DEA8 /* Assets.xcassets in Resources */,
