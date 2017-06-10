@@ -22,6 +22,7 @@
 		EE54682E1EEBFE0900F84E2C /* sword_conflict1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE54682D1EEBFE0900F84E2C /* sword_conflict1.mp3 */; };
 		EE5468301EEBFE1C00F84E2C /* sword_conflict2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE54682F1EEBFE1C00F84E2C /* sword_conflict2.mp3 */; };
 		EE5468321EEBFE2500F84E2C /* sword_conflict3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE5468311EEBFE2500F84E2C /* sword_conflict3.mp3 */; };
+		EE5468341EEC014A00F84E2C /* sword_swing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE5468331EEC014A00F84E2C /* sword_swing.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		EE54682D1EEBFE0900F84E2C /* sword_conflict1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sword_conflict1.mp3; sourceTree = "<group>"; };
 		EE54682F1EEBFE1C00F84E2C /* sword_conflict2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sword_conflict2.mp3; sourceTree = "<group>"; };
 		EE5468311EEBFE2500F84E2C /* sword_conflict3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sword_conflict3.mp3; sourceTree = "<group>"; };
+		EE5468331EEC014A00F84E2C /* sword_swing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sword_swing.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				EE54682F1EEBFE1C00F84E2C /* sword_conflict2.mp3 */,
 				EE5468311EEBFE2500F84E2C /* sword_conflict3.mp3 */,
 				EE54681F1EEBD1D000F84E2C /* sword_guard.mp3 */,
+				EE5468331EEC014A00F84E2C /* sword_swing.mp3 */,
 				D790B1061EE9908F0085DEA8 /* swift_logo.png */,
 				D790B0DF1EE98AC20085DEA8 /* Assets.xcassets */,
 				D790B0E11EE98AC20085DEA8 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5468201EEBD1D000F84E2C /* sword_guard.mp3 in Resources */,
+				EE5468341EEC014A00F84E2C /* sword_swing.mp3 in Resources */,
 				D790B0E31EE98AC20085DEA8 /* LaunchScreen.storyboard in Resources */,
 				EE5468241EEBF69E00F84E2C /* injured.mp3 in Resources */,
 				EE5468301EEBFE1C00F84E2C /* sword_conflict2.mp3 in Resources */,

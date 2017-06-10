@@ -18,7 +18,6 @@ class SoundUtil {
     class func playSwordConflictSound() {
         let soundNum = arc4random_uniform(3) + 1
         print("sword_conflict\(soundNum)")
-        //let soundUrl = Bundle.main.url(forResource: "sword_guard", withExtension: "mp3")! as CFURL
         let soundUrl = Bundle.main.url(forResource: "sword_conflict\(soundNum)", withExtension: "mp3")! as CFURL
         var soundId: SystemSoundID = 0
         AudioServicesCreateSystemSoundID(soundUrl, &soundId)
@@ -27,6 +26,13 @@ class SoundUtil {
     
     class func playSwordGuardSound() {
         let soundUrl = Bundle.main.url(forResource: "sword_guard", withExtension: "mp3")! as CFURL
+        var soundId: SystemSoundID = 1
+        AudioServicesCreateSystemSoundID(soundUrl, &soundId)
+        AudioServicesPlaySystemSoundWithCompletion(soundId){}
+    }
+    
+    class func playSwordSwingSound() {
+        let soundUrl = Bundle.main.url(forResource: "sword_swing", withExtension: "mp3")! as CFURL
         var soundId: SystemSoundID = 1
         AudioServicesCreateSystemSoundID(soundUrl, &soundId)
         AudioServicesPlaySystemSoundWithCompletion(soundId){}
